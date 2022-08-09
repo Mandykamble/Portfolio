@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="flex">
+        <div class="logo">MandyDev<span>.</span></div>
+        <nav>
+          <ul class="flex">
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Service</a></li>
+            <li><a href="#project">Portfolio</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+          <div id="search" class="flex">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="" id="" placeholder="Search..." />
+          </div>
+        </nav>
+      </header>
+
+      <div class="main flex">
+        <div class="main-one">
+          <h1>Hy! I am</h1>
+          <span class="auto">Mandar Kamble</span>
+          <p>
+            I am an undergraduate IT student with passion to work in IT domain
+            with willingness to learn new technical skills. Im a Web and App
+            Developer
+          </p>
+          <button>Hire Me</button>
+        </div>
+        <div class="main-two">
+          <img src="/Images/K4C-removebg-preview.png" alt="" />
+          <!-- <img src="./Images/developer_male-removebg-preview.png" alt="" /> -->
+        </div>
+      </div>
+
+      <section class="projects" id="project">
+        <h1>My Awesome <br /><span>Projects</span></h1>
+        <p>
+          Lorem ipsum dolor sicing elit. Molestias officiis veniam reprehenderit
+          minima praesentium provident eos aperiam excepturi doloribus impedit.
+        </p>
+        <button class="button">Download CV</button>
+        <div class="projects-div flex div-1">
+          <img src="./Images/Projects/5.png" alt="" />
+          <h3>Portfolio Website</h3>
+          <p>
+            This is my Portfolio Web,this is created using HTML,CSS,JAVASCRIPT
+          </p>
+          <button>
+            <a href="https://mandykamble.github.io/MandyDEV.github.io/">Have a look</a>
+          </button>
+        </div>
+        <div class="projects-div flex div-2">
+          <img src="./Images/Projects/6.png" alt="" />
+          <h3>Weather App</h3>
+          <p>
+            This is my WeatherMate Web,this is created using Open weather API
+
+          </p>
+          <button>
+            <a href="https://mandykamble.github.io/WeatherMate/">Have a look</a>
+          </button>
+        </div>
+        <!-- <div class="projects-div flex div-3">
+          <img src="./Images/Projects/7.png" alt="" />
+          <h3>Food App</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+            nulla!
+          </p>
+          <button>Live Preview</button>
+        </div> -->
+      </section>
+      <br /><br />
+
+      <section class="about flex" id="about">
+        <div class="about-one">
+          <h1>About me</h1>
+          <span>Mandar Kamble</span>
+      <p>EDUCATION
+      <br>
+      <br>
+      Walchand collage of Engineering <br>
+        Information technology B.E<br>
+        2022-present<br>
+        <br>
+
+      Shraddha Institute Of Career Devlopment<br>
+        12th Science <br>
+        2020<br>
+        <br>
+      Siddhanerli Vidyalai & Jr.Collage Siddhanerli<br>
+        10th matrix<br>
+        2018<br>
+
+      </p>
+      </h3>
+          <div class="btns">
+            <button>Download CV</button>
+            <button>Contact Me</button>
+          </div>
+        </div>
+        <div class="about-two">
+          <img src="./Images/developer_male-removebg-preview.png" alt="" />
+        </div>
+      </section>
+      <br /><br /><br />
+
+      <section class="contact" id="contact">
+        <h1>Let Us <span>Talk!</span></h1>
+        <div class="box flex">
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Name.." />
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" placeholder="Email.." />
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="60"
+            rows="5"
+            placeholder="Enter your Message here...."
+          ></textarea>
+          <div>
+            <input type="submit" class="send" value="Send" />
+          </div>
+        </div>
+      </section>
+      <footer class="flex" id="footer">
+        <div class="copy">@copywrite 2022 Mandar Kamble <br />@mandar_ur</div>
+        <div class="social">
+          <a class="fa-brands fa-instagram" href="https://www.instagram.com/mandar_ur/"></a>
+          <a class="fa-brands fa-facebook" href="https://m.facebook.com/mandar.kamble.771"></a>
+          <a class="fa-brands fa-whatsapp" href="https://www.instagram.com/mandar_ur/"></a>
+          <a class="fa-solid fa-phone" href="https://www.instagram.com/mandar_ur/"></a>
+          <!-- <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+          <i class="fa-solid fa-phone"></i> -->
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto", {
+        strings: [
+          "Mandar Kamble",
+          "Web Developer",
+          "Traveler",
+          "App Developer",
+        ],
+        typeSpeed: 80,
+        backSpeed: 70,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
